@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-7xl mx-auto">
+
+    <div class="flex flex-col sm:flex-row items-center p-4 gap-2">
+        <h1 class="text-3xl sm:text-4xl font-bold text-black">Nursca's Blog</h1>
+        <nav class="flex flex-wrap justify-center sm:justify-end">
+            <a href="#home" class="m-4 hover:text-[#F7933B]">Home</a>
+            <a href="#blog" class="m-4 hover:text-[#F7933B]">Blog</a>
+            <a href="#about" class="m-4 hover:text-[#F7933B]">About</a>
+            <a href="#contact" class="m-4 hover:text-[#F7933B]">Contact</a>
+        </nav>
+    </div>
+    
+    <div id="home" class="relative grid grid-cols-1 sm:grid-cols-3 gap-2 p-4">
+        <img src="blog1.jpeg" alt="image of a lady in black" class="w-full h-48 m-3 sm:h-64 object-cover">
+        <img src="blog2.jpeg" alt="image of a lady in white" class="w-full h-48 m-3 sm:h-64 object-cover">
+        <img src="blog3.jpeg" alt="image of a flower" class="w-full h-48 m-3 sm:h-64 object-cover">
+        <div class="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1/2 bg-white px-6 py-3 shadow-md text-center">
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-serif font-bold">My Life My Blog</h2>
+        </div>
+    </div>
+    <blockquote class="border-l-4 border-[#F7933B] p-4 italic text-center m-4 font-bold">
+        "Blogging is not just a passion; it's a way of life."
+    </blockquote>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+        <div class="max-w-2xl max-h-96 mx-auto bg-[#E69F44] rounded-lg overflow-hidden shadow-md flex">
+            <div class="w-1/2">
+                <img class="w-full h-full object-fill" src="https://static.wixstatic.com/media/75059a_cf2c39f511b6478eaea5b4f7713831c0~mv2.jpg/v1/fill/w_268,h_358,fp_0.50_0.50,q_90,enc_avif,quality_auto/75059a_cf2c39f511b6478eaea5b4f7713831c0~mv2.jpg" alt="">
+            </div>
+
+            <div id="blog" class="w-1/2 p-6 flex flex-col justify-center">
+                <p class="text-sm text-gray-500 mb-2">Mar 22, 2023 · 2 min read</p>
+                <h3 class="text-xl font-bold font-serif leading-tight mb-2">My Journey</h3>
+                <p class="text-sm text-gray-700">My journey began when I decided to pursue my passion for writing. I started this blog to share my thoughts, experiences, and the lessons I've learned along the way.</p>
+            </div>
+        </div>
+
+        <div class="max-w-2xl max-h-96 mx-auto bg-[#E69F44] rounded-lg overflow-hidden shadow-md flex">
+            <div class="w-1/2">
+                <img class="w-full h-full object-fill" src="https://static.wixstatic.com/media/a27d24_77c3bdd084c14f50a13aa9b44485c2e3~mv2.jpg/v1/fill/w_268,h_358,fp_0.50_0.50,q_90,enc_avif,quality_auto/a27d24_77c3bdd084c14f50a13aa9b44485c2e3~mv2.jpg" alt="">
+            </div>
+
+            <div class="w-1/2 p-6 flex flex-col justify-center">
+                <p class="text-sm text-gray-500 mb-2">Mar 22, 2023 · 2 min read</p>
+                <h3 class="text-xl font-bold font-serif leading-tight mb-2">5 Reasons Why I Wake Up by 5 AM</h3>
+                <p class="text-sm text-gray-700">Waking up early has transformed my life in many ways. Here are five reasons why I choose to rise at 5 AM every day</p>
+            </div>
+        </div>
+
+        <div class="max-w-2xl max-h-96 mx-auto bg-[#E69F44] rounded-lg overflow-hidden shadow-md flex">
+            <div class="w-1/2">
+                <img class="w-full h-full object-fill" src="https://static.wixstatic.com/media/84770f_579889e3c7ab4551ac493b6e60ebc25a~mv2.jpg/v1/fill/w_449,h_640,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_579889e3c7ab4551ac493b6e60ebc25a~mv2.jpg" alt="">
+            </div>
+
+            <div class="w-1/2 p-6 flex flex-col justify-center">
+                <p class="text-sm text-gray-500 mb-2">Mar 22, 2023 · 2 min read</p>
+                <h3 class="text-xl font-bold font-serif leading-tight mb-2">My Favorite Books</h3>
+                <p class="text-sm text-gray-700">Books have always been a source of inspiration and knowledge for me. Here are some of my all-time favorites that have shaped my thinking and creativity.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="flex flex-col md:flex-row">
+        <div class="md:w-1/2 bg-[#F3D1A4] p-10 flex flex-col justify-center">
+            <h2 class="text-3xl font-bold font-serif mb-3">Meet the Author</h2>
+            <p class="text-gray-700 mb-4">Hello! I'm Nursca, a passionate writer and blogger. I love sharing my thoughts on various topics, from personal development to lifestyle tips. Join me on this journey as we explore the world together through words.</p>
+            <p class="text-gray-700">Feel free to connect with me on social media or drop me an email if you have any questions or just want to say hi!</p>
+        </div>
+        <div class="md:w-1/2">
+            <img class="w-full h-full object-cover" src="https://static.wixstatic.com/media/75059a_837c609e5bfe43c69662dcb5fd611e96~mv2.jpg/v1/crop/x_1023,y_136,w_4032,h_3011/fill/w_490,h_364,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/GettyImages-962633986.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="mx-auto bg-[#F3D1A4] m-10 p-10 max-w-md">
+        <h2 class="text-3xl font-bold text-center mb-8">Let these posts come to you</h2>
+        <label for="email" class="block font-semibold mb-1">Email *</label>
+        <input type="email" 
+        id="email" 
+        class="w-full bg-transparent border-b-2 border-black text-white placeholder-gray-200 focus:outline-none mb-2" 
+        placeholder="Enter your email address">
+        <p class="text-sm text-black mt-1 flex items-start gap-1">
+           <span>⚠️</span> Enter an email address like example@mysite.com. 
+        </p>
+
+        <div class="mt-6 flex items-center gap-2">
+            <input type="checkbox" id="subscribe" class="accent-white w-4 h-4" />
+            <label for="subscribe" class="text-sm text-white">Yes, subscribe me to your newsletter. *</label>
+        </div>
+    </div>
+    <footer id="contact" class="bg-[#F3D1A4] p-10 text-center">
+        <p>&copy; 2023 Nursca's Blog. All rights reserved.</p>
+        <p class="flex items-center gap-2">Follow me on:
+            <img src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_27,h_27,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c7d035ba85f6486680c2facedecdcf4d.png" alt="Twitter">
+            <img src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_27,h_27,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/01c3aff52f2a4dffa526d7a9843d46ea.png" alt="Instagram">
+            <img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_27,h_27,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdef751204647a3bbd7eaa2827ed4f9.png" alt="Facebook">
+        </p>
+</body>
+</html>
